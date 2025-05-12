@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReceiptScan</title>
+    <style>
+        html { scroll-behavior: smooth; }
+        body {
+            font-family: 'Courier New', Courier, monospace; font-size: 14px;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0; padding: 0;
+        }
+        header {
+            background: #cc7722; /* Burnt Orange / Ochre */
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        .receipt {
+            background: #fff;
+            padding: 20px;
+            width: 90%;
+            max-width: 600px;
+            border: 1px dashed #aaa;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin: 20px auto;
+        }
+        h1, h2, p {
+            text-align: left;
+        }
+        .line {
+            border-bottom: 1px dashed #aaa;
+            margin: 10px 0;
+        }
+        
+        a { color: #cc7722; text-decoration: none; }
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #cc7722;
+            color: #fff;
+            padding: 10px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ReceiptScan</h1>
+        <nav>
+            <a href="#services">Services</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#otherservices">Other Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="services" class="receipt">
+        <h2>Services</h2>
+        <p>
+            — High-quality PDF scans with text recognition (OCR).<br>
+            — CSV files for easy analysis, tax readiness, and compliance. Custom CSV available if a template is provided.*<br>
+            — Organising a combination of digital and hardcopy documents available.**<br>
+            — Standard turnaround: 5 working days.<br>
+            — Expedited processing available by request.<br>
+        </p>
+        <p>
+            * Extra costs may apply depending on complexity.<br>
+            ** Digital documents supplied in a single folder.
+        </p>
+    </section>
+
+    <section id="pricing" class="receipt">
+        <h2>Pricing</h2>
+        <div class="item"><span>— Drop-off (Fairfield)</span><span>$50 / 100 Receipts</span></div>
+        <div class="item"><span>— Extra 50 Receipts</span><span>$25</span></div>
+        <div class="line"></div>
+        <div class="item"><span>— Onsite or Pick-up (Darebin, Banyule, Merri-Bek)</span><span>$100 / 200 Receipts</span></div>
+        <div class="item"><span>— Extra 50 Receipts (Onsite)</span><span>$25</span></div>
+        <div class="line"></div>
+        <div class="item"><span>— Receipt Sorting Fee</span><span>$40/hr</span></div>
+        <div class="item"><span>— Merging Records</span><span>$40/hr</span></div>
+        <div class="item"><span>— Large Jobs</span><span>Request Quote</span></div>
+        <div class="item"><span>— Extended Call-out</span><span>Request Quote</span></div>
+        <div class="item"><span>— Outside Service Area</span><span>Request Quote</span></div>
+        <div class="item"><span>— Expedited Processing</span><span>Request Quote</span></div>
+        <div class="item"><span>— Regular Service Agreement</span><span>Request Quote</span></div>
+        <div class="line"></div>
+        <p style="text-align:center;">
+            — Receipts should be flat, clean, free of staples and paperclips, and ready for scanning.<br>
+            — Need a hand preparing? Sorting and merging is available at $40/hr. Billed per 30 minutes.
+        </p>
+    </section>
+
+    <section id="otherservices" class="receipt">
+        <h2>Other Services</h2>
+        <p>           
+            — Other document digitisation or archiving needs?<br>
+            — Need Help With Stocktake or Inventorization?<br>
+            — Request a free quote over the phone. Pricing usually starts at $50.
+        </p>
+        <h2>Other Documents We Commonly Process</h2>   
+        <p>
+            — Insurance Receipts (e.g., health fund claims issued at time of service).<br>
+            — Invoices (incoming and outgoing).<br>
+        </p>
+    </section>
+
+    <section id="contact" class="receipt">
+        <h2>Contact</h2>
+        <p>
+            — <a href="mailto:hello@receiptscan.com.au">hello@receiptscan.com.au</a><br />
+            — 0424 395 495<br />
+            — Based in Fairfield, Melbourne
+        </p>
+    </section>
+
+    <a class="back-to-top" href="#">↑ Back to Top</a>
+
+</body>
+</html>

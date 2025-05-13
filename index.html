@@ -7,7 +7,7 @@
     <meta property="og:url" content="https://www.receiptscan.com.au">
     <meta property="og:type" content="website">
     <meta name="description" content="Fast, professional receipt scanning services for tax time and small businesses. PDF and CSV exports, drop-off or onsite service in Melbourne.">
-    <meta name="keywords" content="receipt scanning, tax receipts, small business records, Melbourne tax help, CSV expenses, digital receipts, digitisation, stocktake, inventory management, invoice management, go paperless, document archiving, records management">
+    <meta name="keywords" content="sole trader, tax time, health fund receipts, receipt scanning, tax receipts, small business records, Melbourne tax help, CSV expenses, digital receipts, digitisation, stocktake, inventory management, invoice management, go paperless, document archiving, records management">
     <meta name="author" content="ReceiptScan">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -33,12 +33,17 @@
     }
     </script>
     <style>
-        html { scroll-behavior: smooth; }
+        html { 
+            scroll-behavior: smooth; 
+            scroll-padding-top: 100px; /* Fixes header covering sections */
+        }
         body {
-            font-family: 'Courier New', Courier, monospace; font-size: 14px;
+            font-family: 'Courier New', Courier, monospace; 
+            font-size: 14px;
             background-color: #f9f9f9;
             color: #333;
-            margin: 0; padding: 0;
+            margin: 0; 
+            padding: 0;
         }
         header {
             background: #cc7722;
@@ -59,13 +64,13 @@
             text-decoration: underline;
         }
         section {
-    padding: 60px 20px;
+            padding: 60px 20px;
             max-width: 800px;
             margin: auto;
         }
         .receipt {
-    background: #fff;
-    padding: 30px;
+            background: #fff;
+            padding: 30px;
             width: 90%;
             max-width: 600px;
             border: 1px dashed #aaa;
@@ -73,41 +78,35 @@
             margin: 20px auto;
         }
         h1, h2, p {
-    text-align: left;
-    line-height: 1.8;
-    margin-bottom: 15px;
-}
-
-.receipt p {
-    text-indent: 0;
-    padding-left: 0;
-    margin-bottom: 15px;
-}
-
-.receipt ul {
-    list-style: none;
-    padding-left: 1.5em;
-    margin-bottom: 20px;
-}
-
-.receipt ul li::before {
-    content: "\2014\0020"; /* em dash + space */ /* em dash + space */
- /* em dash + space */
-    color: #333;
-    position: absolute;
-    margin-left: -1.5em;
-}
-
-.receipt ul li {
-    position: relative;
-    padding-left: 1.5em;
-    text-align: left;
-    margin-bottom: 10px;
-}
-
-header h1 {
-    text-align: center;
-}
+            text-align: left;
+            line-height: 1.8;
+            margin-bottom: 15px;
+        }
+        .receipt p {
+            text-indent: 0;
+            padding-left: 0;
+            margin-bottom: 15px;
+        }
+        .receipt ul {
+            list-style: none;
+            padding-left: 1.5em;
+            margin-bottom: 20px;
+        }
+        .receipt ul li::before {
+            content: "\2014\0020"; /* em dash + space */
+            color: #333;
+            position: absolute;
+            margin-left: -1.5em;
+        }
+        .receipt ul li {
+            position: relative;
+            padding-left: 1.5em;
+            text-align: left;
+            margin-bottom: 10px;
+        }
+        header h1 {
+            text-align: center;
+        }
         h2 {
             font-size: 1.5em;
             margin-bottom: 10px;
@@ -121,8 +120,13 @@ header h1 {
             justify-content: space-between;
             margin: 8px 0;
         }
-        a { color: #cc7722; text-decoration: none; }
-        a:hover { text-decoration: underline; }
+        a { 
+            color: #cc7722; 
+            text-decoration: none; 
+        }
+        a:hover { 
+            text-decoration: underline; 
+        }
         .back-to-top {
             position: fixed;
             bottom: 20px;
@@ -193,9 +197,9 @@ Take control of your records with our help. We organise both physical and digita
     <div class="item"><span>&mdash; Regular Service Agreement</span><span>Request Quote</span></div>
     <div class="line"></div>
     <p style="text-align:left; margin-top: 20px; font-style: italic;">
-    &mdash; Receipts should be flat, clean, free of staples and paperclips, and ready for scanning.<br><br>
-    &mdash; Need a hand preparing? Sorting and merging is available at $40/hr. Billed per 30 minutes.
-</p>
+        &mdash; Receipts should be flat, clean, free of staples and paperclips, and ready for scanning.<br><br>
+        &mdash; Need a hand preparing? Sorting and merging is available at $40/hr. Billed per 30 minutes.
+    </p>
 </section>
 
 <section id="otherservices" class="receipt">

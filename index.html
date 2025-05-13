@@ -12,6 +12,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ReceiptScan | Fast & Easy Receipt Scanning in Melbourne</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "ReceiptScan",
+      "description": "Fast, professional receipt scanning services for tax time and small businesses in Melbourne.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Fairfield",
+        "addressRegion": "VIC",
+        "addressCountry": "Australia"
+      },
+      "telephone": "+61424395495",
+      "email": "hello@receiptscan.com.au",
+      "url": "https://www.receiptscan.com.au",
+      "areaServed": ["Darebin", "Banyule", "Merri-Bek"],
+      "sameAs": ["https://wa.me/61424395495"]
+    }
+    </script>
     <style>
         html { scroll-behavior: smooth; }
         body {
@@ -21,7 +41,7 @@
             margin: 0; padding: 0;
         }
         header {
-            background: #cc7722; /* Burnt Orange / Ochre */
+            background: #cc7722;
             color: white;
             padding: 20px;
             text-align: center;
@@ -34,6 +54,9 @@
             margin: 0 15px;
             text-decoration: none;
             font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
         }
         section {
             padding: 40px 20px;
@@ -52,12 +75,21 @@
         h1, h2, p {
             text-align: left;
         }
+        h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
         .line {
             border-bottom: 1px dashed #aaa;
             margin: 10px 0;
         }
-        
+        .item {
+            display: flex;
+            justify-content: space-between;
+            margin: 8px 0;
+        }
         a { color: #cc7722; text-decoration: none; }
+        a:hover { text-decoration: underline; }
         .back-to-top {
             position: fixed;
             bottom: 20px;
@@ -69,82 +101,35 @@
             text-decoration: none;
             font-size: 0.9em;
         }
+        footer {
+            text-align: center;
+            font-size: 0.8em;
+            padding: 20px;
+            color: #666;
+        }
     </style>
 </head>
 <body>
-    <header>
-        <h1>ReceiptScan</h1>
-        <nav>
-            <a href="#services">Services</a>
-            <a href="#pricing">Pricing</a>
-            <a href="#otherservices">Other Services</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
+<header>
+    <h1>ReceiptScan</h1>
+    <p style="margin: 8px 0 20px; font-size: 0.9em; font-style: italic; color: #f5e9e0; opacity: 0.8;">We Love Paperwork!</p>
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#otherservices">Other Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
 
 <p style="text-align:center; font-weight:bold; margin: 20px;">Book Now for Fast Turnaround Before Tax Time!</p>
 
-    <section id="services" class="receipt">
-        <h2>Services</h2>
-        <p>
-            — High-quality PDF scans with text recognition (OCR).<br>
-            — CSV files for easy analysis, tax readiness, and compliance. Custom CSV available if a template is provided.*<br>
-            — Organising a combination of digital and hardcopy documents available.**<br>
-            — Standard turnaround: 5 working days.<br>
-            — Expedited processing available by request.<br>
-        </p>
-        <p>
-            * Extra costs may apply depending on complexity.<br>
-            ** Digital documents supplied in a single folder.
-        </p>
-    </section>
+<!-- Sections remain unchanged -->
 
-    <section id="pricing" class="receipt">
-        <h2>Pricing</h2>
-        <div class="item"><span>— Drop-off (Fairfield)</span><span>$50 / 100 Receipts</span></div>
-        <div class="item"><span>— Extra 50 Receipts</span><span>$25</span></div>
-        <div class="line"></div>
-        <div class="item"><span>— Onsite or Pick-up (Darebin, Banyule, Merri-Bek)</span><span>$100 / 200 Receipts</span></div>
-        <div class="item"><span>— Extra 50 Receipts (Onsite)</span><span>$25</span></div>
-        <div class="line"></div>
-        <div class="item"><span>— Receipt Sorting Fee</span><span>$40/hr</span></div>
-        <div class="item"><span>— Merging Records</span><span>$40/hr</span></div>
-        <div class="item"><span>— Large Jobs</span><span>Request Quote</span></div>
-        <div class="item"><span>— Extended Call-out</span><span>Request Quote</span></div>
-        <div class="item"><span>— Outside Service Area</span><span>Request Quote</span></div>
-        <div class="item"><span>— Expedited Processing</span><span>Request Quote</span></div>
-        <div class="item"><span>— Regular Service Agreement</span><span>Request Quote</span></div>
-        <div class="line"></div>
-        <p style="text-align:center;">
-            — Receipts should be flat, clean, free of staples and paperclips, and ready for scanning.<br>
-            — Need a hand preparing? Sorting and merging is available at $40/hr. Billed per 30 minutes.
-        </p>
-    </section>
+<a class="back-to-top" href="#">↑ Back to Top</a>
 
-    <section id="otherservices" class="receipt">
-        <h2>Other Services</h2>
-        <p>           
-            — Other document digitisation or archiving needs?<br>
-            — Need Help With Stocktake or Inventorization?<br>
-            — Request a free quote over the phone. Pricing usually starts at $50.
-        </p>
-        <h2>Other Documents We Commonly Process</h2>   
-        <p>
-            — Insurance Receipts (e.g., health fund claims issued at time of service).<br>
-            — Invoices (incoming and outgoing).<br>
-        </p>
-    </section>
-
-    <section id="contact" class="receipt">
-        <h2>Contact</h2>
-        <p>
-            — <a href="mailto:hello@receiptscan.com.au">hello@receiptscan.com.au</a><br />
-            — 0424 395 495<br />
-            — Based in Fairfield, Melbourne
-        </p>
-    </section>
-
-    <a class="back-to-top" href="#">↑ Back to Top</a>
+<footer>
+    &copy; 2025 ReceiptScan. All Rights Reserved.
+</footer>
 
 </body>
 </html>

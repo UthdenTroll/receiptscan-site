@@ -79,9 +79,30 @@
 }
 
 .receipt p {
-    text-indent: -1.5em;
-    padding-left: 1.5em;
+    text-indent: 0;
+    padding-left: 0;
     margin-bottom: 15px;
+}
+
+.receipt ul {
+    list-style: none;
+    padding-left: 1.5em;
+    margin-bottom: 20px;
+}
+
+.receipt ul li::before {
+    content: "40"; /* em dash + space */
+    color: #333;
+    position: absolute;
+    margin-left: -1.5em;
+}
+
+.receipt ul li {
+    position: relative;
+    padding-left: 1.5em;
+    text-align: left;
+    font-style: italic;
+    margin-bottom: 10px;
 }
 
 header h1 {
@@ -137,13 +158,13 @@ header h1 {
 
 <section id="services" class="receipt">
     <h2>Services</h2>
-    <p>
-        &mdash; High-quality PDF scans with text recognition (OCR).<br>
-        &mdash; CSV files for easy analysis, tax readiness, and compliance. Custom CSV available if a template is provided.*<br>
-        &mdash; Organising a combination of digital and hardcopy documents available.**<br>
-        &mdash; Standard turnaround: 5 working days.<br>
-        &mdash; Expedited processing available by request.<br>
-    </p>
+    <ul>
+        <li>High-quality PDF scans with text recognition (OCR).</li>
+        <li>CSV files for easy analysis, tax readiness, and compliance. Custom CSV available if a template is provided.*</li>
+        <li>Organising a combination of digital and hardcopy documents available.**</li>
+        <li>Standard turnaround: 5 working days.</li>
+        <li>Expedited processing available by request.</li>
+    </ul>
     <p>
         * Extra costs may apply depending on complexity.<br>
         ** Digital documents supplied in a single folder.
@@ -174,28 +195,27 @@ header h1 {
 
 <section id="otherservices" class="receipt">
     <h2>Other Services</h2>
-    <p>
-        &mdash; Other document digitisation or archiving needs?<br>
-        &mdash; Need help with stocktake or inventory management?<br>
-        &mdash; Request a free quote over the phone. Pricing usually starts at $50.
-    </p>
+    <ul>
+        <li>Other document digitisation or archiving needs?</li>
+        <li>Need help with stocktake or inventory management?</li>
+        <li>Request a free quote over the phone. Pricing usually starts at $50.</li>
+    </ul>
     <h2>Other Documents We Commonly Process</h2>
-    <p>
-        &mdash; Insurance Receipts (e.g., health fund claims issued at time of service).<br>
-        &mdash; Invoices (incoming and outgoing).<br>
-    </p>
+    <ul>
+        <li>Insurance Receipts (e.g., health fund claims issued at time of service).</li>
+        <li>Invoices (incoming and outgoing).</li>
+    </ul>
 </section>
 
 <section id="contact" class="receipt">
     <h2>Contact</h2>
-    <p>
-        &mdash; <a href="mailto:hello.receiptscan@gmail.com">hello.receiptscan@gmail.com</a><br />
-        &mdash; <a href="https://wa.me/61424395495?text=Hi%20I%20have%20an%20enquiry%20about%20ReceiptScan" target="_blank">Chat via WhatsApp</a><br />
-        &mdash; <a href="sgnl://send?phone=+61424395495" target="_blank">Chat via Signal</a>
-        &mdash; 0424 395 495<br />
-        &mdash; Drop-off and Pick-Up available at our Fairfield Location.<br />
-
-    </p>
+    <ul>
+        <li><a href="mailto:hello@receiptscan.com.au">hello@receiptscan.com.au</a></li>
+        <li>0424 395 495</li>
+        <li>Drop-off available in Fairfield by appointment.</li>
+        <li><a href="https://wa.me/61424395495?text=Hi%20I%20have%20an%20enquiry%20about%20ReceiptScan" target="_blank">Chat via WhatsApp</a></li>
+        <li><a href="sgnl://send?phone=+61424395495" target="_blank">Chat via Signal</a></li>
+    </ul>
 </section>
 
 <a class="back-to-top" href="#">↑ Back to Top</a>

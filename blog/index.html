@@ -3,9 +3,17 @@ layout: default
 title: Blog
 ---
 
-<h1>Blog</h1>
-<ul>
-  {% for post in site.posts %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %d, %Y" }}</li>
-  {% endfor %}
-</ul>
+<section class="receipt">
+  <h1>Blog</h1>
+  <ul>
+    {% for post in site.posts %}
+      <li style="margin-bottom: 10px;">
+        <a href="{{ post.url }}"><strong>{{ post.title }}</strong></a>
+        <br />
+        <em>{{ post.date | date: "%B %d, %Y" }}</em>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
+
+<a class="back-to-top" href="#">↑ Back to Top</a>
